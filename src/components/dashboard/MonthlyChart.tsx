@@ -42,7 +42,7 @@ export default function MonthlyChart({ data }: MonthlyChartProps) {
             <Tooltip 
               cursor={{ fill: '#F1F5F9' }}
               contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)' }} 
-              formatter={(value: number) => [`Rp ${value.toLocaleString()}`, 'Total']}
+              formatter={(value: any) => [`Rp ${Number(value).toLocaleString()}`, 'Total']}
             />
             <Bar dataKey="total" fill="#059669" radius={[6, 6, 0, 0]} maxBarSize={50} />
           </BarChart>
