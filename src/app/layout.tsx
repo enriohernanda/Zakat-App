@@ -7,8 +7,11 @@ import { Toaster } from '@/components/ui/sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Zakat Management Platform',
+  title: 'ZakatApp',
   description: 'Calculate zakat and track your payments easily',
+  icons: {
+    icon: '/icon-zakat.png'
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
