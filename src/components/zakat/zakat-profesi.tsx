@@ -83,7 +83,7 @@ export default function ZakatProfesi() {
               />
             </div>
             <div className="text-sm text-slate-500 mt-1 flex justify-between">
-              <span>Nisab Threshold (Monthly)</span>
+              <span>Batas Nisab (Bulanan)</span>
               <span className="font-semibold text-slate-700">Rp {Math.round(NISAB).toLocaleString()}</span>
             </div>
           </div>
